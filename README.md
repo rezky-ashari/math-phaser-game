@@ -2,7 +2,7 @@
 
 A web-based educational pinball/brick-breaker game built with Phaser 3. Solves math problems while playing!
 
-![Gameplay Demo](assets/gameplay.mp4)
+![Gameplay Demo](assets/gameplay.gif)
 
 ## 🎮 Game Overview
 
@@ -27,9 +27,13 @@ Combine the fun of arcade physics with mental math practice.
 
 *   **4 Math Levels**: Addition (+), Subtraction (-), Multiplication (*), Division (:).
 *   **Dynamic Trajectory**: Visual aiming line to line up your perfect shot.
-*   **Streak System**: Visual fire effect and streak counter rewards consistent accuracy.
+*   **Streak System**: Streak counter rewards consistent accuracy.
 *   **Persistent Stats**: Tracks High Scores and Max Streaks per session.
 *   **Juicy Visuals**: Screen shake, popup animations, and particle effects.
+
+## 🌐 Play Online
+
+**[Play the Game Here!](https://rezky-ashari.github.io/math-phaser-game/)**
 
 ## 🛠️ Tech Stack
 
@@ -50,17 +54,6 @@ Combine the fun of arcade physics with mental math practice.
     npm run dev
     ```
 4.  Open your browser at the local URL (usually `http://localhost:5173`).
-
-
-## 🚀 Deployment
-
-The game is configured for **GitHub Pages**.
-
-1.  Push the code to your GitHub repository.
-2.  Go to **Settings > Pages** in your repo.
-3.  Source: **Deploy from a branch**.
-4.  Branch: **gh-pages** / **root** (The workflow will create this branch automatically after the first push).
-5.  Your game will be live at `https://<your-username>.github.io/<repo-name>/`.
 
 ## License
 
