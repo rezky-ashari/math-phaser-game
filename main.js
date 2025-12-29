@@ -1,6 +1,5 @@
 import './style.css';
 import Phaser from 'phaser';
-import Boot from './src/scenes/Boot';
 import Preloader from './src/scenes/Preloader';
 import MainMenu from './src/scenes/MainMenu';
 import Game from './src/scenes/Game';
@@ -20,7 +19,6 @@ const config = {
         }
     },
     scene: [
-        Boot,
         Preloader,
         MainMenu,
         Game,
